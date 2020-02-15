@@ -17,6 +17,8 @@ public class ArrayListTest {
 		System.out.println(A1);
 		System.out.println(A1.get(1));
 		System.out.println(A1.remove(1));
+		System.out.println(A1);
+
 //		System.out.println(A1.sort(c));
 		List<String> S1 = new ArrayList<String>();
 		S1.add("Amey");
@@ -25,12 +27,12 @@ public class ArrayListTest {
 		S1.add("bola");
 		System.out.println(S1);
 		
-		Iterator<Integer> it = A1.iterator();
+		Iterator<String> it = S1.iterator();
 		while (it.hasNext()) {
 			System.out.print(it.next());
 		}
-		
-		System.out.println(S1.subList(1, 2));
+		System.out.println();
+		System.out.println(S1.subList(1, 3));
 	}
 
 }

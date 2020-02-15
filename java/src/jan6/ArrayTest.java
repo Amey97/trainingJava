@@ -14,6 +14,10 @@ public class ArrayTest {
 		Scanner sc= new Scanner(System.in);
 		String s=sc.nextLine();
 		double d= sc.nextDouble();
+		System.out.println("------------");
+		int i =  5%5;
+		System.out.println(i);
+		
 	}
 
 }

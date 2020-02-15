@@ -7,6 +7,11 @@ public class shiftOperator {
 		System.out.println(a>>1);
 		System.out.println(a>>>31);
 		System.out.println(Integer.toBinaryString(-1));
+		
+		
+		
+		
+
 	}
 
 }

@@ -1,13 +1,14 @@
 package clinic;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class MedicalTest {
 	static int id = 0;
-	static String Stock[] = new String[2];
 	static String record[][] = new String[2][4];
 	private static Scanner sc;
-
+	Set<String> medicine = new HashSet<String>();
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		while (true) {
