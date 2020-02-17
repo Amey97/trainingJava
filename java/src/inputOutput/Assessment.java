@@ -12,7 +12,7 @@ public class Assessment {
 	public static void main(String[] args) throws FileNotFoundException {
 		FileOutputStream fout = new FileOutputStream("D:\\myfile.txt");
 		try {
-			final PipedReader read = new PipedReader();
+			final PipedReader read = new PipedReader()  ;
 			write = new PipedWriter(read);
 			
 			Thread readerThread = new Thread(new Runnable() {
