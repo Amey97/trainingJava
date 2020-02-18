@@ -7,7 +7,6 @@ import java.util.List;
 public class ArrayListTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Integer> A1=  new ArrayList<Integer>();
 		A1.add(0);
 		A1.add(1);
