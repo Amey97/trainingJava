@@ -500,7 +500,7 @@ class write implements Runnable
     
 }
 
-public class Project3 {
+public class HotelBookingSystem {
     public static void main(String[] args){
         
         try
