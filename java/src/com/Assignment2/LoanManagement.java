@@ -1,7 +1,6 @@
 package com.Assignment2;
 
 import java.util.*;
-import java.io.*;
 
 public class LoanManagement {
 	static int id = 0;
@@ -71,7 +70,7 @@ public class LoanManagement {
 		System.out.println(" You want to get the loan? reply in Yes/No");
 		
 		String loanch=sc.next();
-		if(loanch.equalsIgnoreCase("yes"))
+		if(loanch.equalsIgnoreCase(" yes"))
 		{
 			System.out.println("Your loan id is "+ loanid);
 			System.exit(0);
