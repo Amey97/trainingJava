@@ -4,11 +4,6 @@ import java.util.*;
 import java.io.*;
 
 public class LoanManagement {
-	private long custId;
-	private String custName;
-	private String address;
-	private long mobile;
-	private String email;
 	static int id = 0;
 	static int loanid = 1;
 	private static Scanner sc;
@@ -72,12 +67,14 @@ public class LoanManagement {
 		float r= (float)9.5/100;
 		double emi = amount * r * (1+r)* duration / ((1+r)*duration -1);
 		
-		System.out.println("Your EMI for "+ amount+" and duration is"+emi);
+		System.out.println("Your EMI for "+ amount+" and duration is : "+emi);
 		System.out.println(" You want to get the loan? reply in Yes/No");
-		String loanch=sc.nextLine();
+		
+		String loanch=sc.next();
 		if(loanch.equalsIgnoreCase("yes"))
 		{
 			System.out.println("Your loan id is "+ loanid);
+			System.exit(0);
 		}
 		else {
 			//int tempId = sc.nextInt();
@@ -87,8 +84,8 @@ public class LoanManagement {
 
 			System.out.println("Address :" + Customer[id][2]);
 		
-
-			System.out.println("-------------------------------------");
+			System.exit(0);
+			//System.out.println("-------------------------------------");
 		}
 		
 	}
