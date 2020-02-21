@@ -16,6 +16,8 @@ public class DifferenceofEqual {
 		System.out.println(s3 == s4);
 		System.out.println(s1 == s4);
 		System.out.println(s1.equals(s4));
+		System.out.println(s1.compareTo(s4));//return integer value checks length
+		System.out.println(s4.compareTo(s3));
 
 	}
 
