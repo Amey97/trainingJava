@@ -7,7 +7,7 @@ public class DifferenceofEqual {
 
 		String s1 = new String("Hello");
 		String s2 = new String("Hello");
-
+		// agr same string value rehta hai to same address ko point krte hai
 		String s4 = "Hello";
 		String s3 = "Hello";
 		System.out.println(s1 == s2);//ye address dekhta hai
