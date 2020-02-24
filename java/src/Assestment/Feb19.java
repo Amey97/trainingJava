@@ -36,7 +36,6 @@ public class Feb19 {
 	private static void usingPath(String data) {
 		File file = new File("D:\\Output.txt");
 		FileWriter fr = null;
-		FileWriter fw = null;
 		try {
 			fr = new FileWriter(file, true);
 			fr.write(data);
