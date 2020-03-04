@@ -3,7 +3,7 @@ package statements;
 public class SwitchTest {
 
 	public static void main(String[] args) {
-		byte choice = 12;
+		byte choice = 2;
 		switch (choice) {
 		default:
 			System.out.println("not valid month");
@@ -13,7 +13,7 @@ public class SwitchTest {
 			break;
 		case 2:
 			System.out.println("feb");
-			break;
+		//	break;
 		case 3:
 			System.out.println("mar");
 			break;
@@ -46,6 +46,8 @@ public class SwitchTest {
 			break;
 
 		}
+		
+		
 	}
 
 }

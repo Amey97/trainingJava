@@ -68,7 +68,7 @@ public class LoanManagement {
 		
 		System.out.println("Your EMI for "+ amount+" and duration is : "+emi);
 		System.out.println(" You want to get the loan? reply in Yes/No");
-		
+		 
 		String loanch=sc.next();
 		if(loanch.equalsIgnoreCase(" yes"))
 		{
